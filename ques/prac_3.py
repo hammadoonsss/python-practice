@@ -15,11 +15,17 @@ print("---------",test.values())
 # test = test.values()+count
 # print(test)
 
-dic = {}
+
 for i in test:
     print("i", i)
     #test[i] = test[i] + count
     test.update({i: count})
     
 print(test)
-    
+
+lis1 = [1,2,3,4,5]
+lis2 = [4,6,5,8,10]
+
+lis3 = lis1 + lis2
+
+print("list: ---", lis3)
